@@ -1,6 +1,6 @@
 import google.generativeai as genai
 from dotenv import load_dotenv
-load_dotenv(r"C:\Users\Sajin S\Desktop\vs_code\Gemini_models\chatbot_kj\key.env")
+load_dotenv("add key env file")
 import os
 
 genai.configure(api_key = os.getenv("GOOGLE_API_KEY"))
